@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "eslint-plugin-import",
+    "eslint-plugin-prettier"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
